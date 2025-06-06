@@ -1,0 +1,73 @@
+<header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="header-nav-logo" href="./index.html" aria-label="logo">
+        <svg class="logo-svg" width="16" height="16">
+          <use href="/img/icons.svg#logo"></use>
+        </svg>
+        <svg class="logo-text" width="148" height="12">
+          <use href="/img/icons.svg#logo-text"></use>
+        </svg>
+      </a>
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="nav-link" href="#howitworks">How It Works</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="nav-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+      <a class="nav-btn" href="#vegetables" aria-label="button">Shop now</a>
+       <!-- <button class="header-btn" type="button">Shop now</button> -->
+      <button
+        class="nav-btn-mob js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="mobile menu open"
+        width="32" height="32"
+      >
+        <svg class="nav-btn-mob-icon" width="21" height="16">
+          <use href="./img/icons.svg#icon-menu-mob"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+
+  <div class="backdrop js-menu-container" id="mobile-menu">
+    <div class="modal-menu">
+      <button
+        class="modal-menu-close js-close-menu"
+        type="button"
+        aria-label="button mobile menu close"
+      >
+        <svg class="modal-menu-close-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="modal-menu-nav">
+        <ul class="modal-menu-list">
+          <li class="modal-menu-item">
+            <a href="#howitworks" class="modal-menu-link">How It Works</a>
+          </li>
+          <li class="modal-menu-item">
+            <a href="#vegetables" class="modal-menu-link">Vegetables</a>
+          </li>
+          <li class="modal-menu-item">
+            <a href="#reviews" class="modal-menu-link">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <a
+        href="#order"
+        aria-label="butto mobile menu order"
+        class="modal-menu-btn"
+      >
+        Shop now
+      </a>
+    </div>
+  </div>
+</header> 

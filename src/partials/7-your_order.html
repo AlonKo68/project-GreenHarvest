@@ -1,0 +1,100 @@
+<section class="order-section section" id="order">
+  <div class="order-container container">
+    <h2 class="order-title">
+      Fresh
+      <span class="order-title-accent"> Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="order-wrapper">
+      <div class="order-input-form">
+        <h2 class="form-title">
+          Ordering
+          <span class="form-title-accent-red">from us</span>
+          is quick and easy! Fill out
+          <span class="form-title-accent-green">the form</span>
+          below and we will contact you !
+        </h2>
+        <form name="order-form" autocomplete="off" novalidate class="order-form">
+          <div class="input-name">
+            <input class="input" type="text" name="username" aria-label="Name" placeholder="Full Name"
+              pattern="[A-z]{3,15}" required />
+            <p class="text-valid">
+              Succes!
+            </p>
+            <p class="text-invalid">
+              Invalid name, try again
+            </p>
+          </div>
+          <div class="input-email">
+            <input class="input" type="email" name="email" aria-label="E-mail" placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+            <p class="text-valid">
+              Succes!
+            </p>
+            <p class="text-invalid">
+              Invalid email, try again
+            </p>
+          </div>
+          <textarea class="textarea" name="feedback" rows="5" placeholder="Comment"></textarea>
+          <button class="form-btn" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="order-social">
+        <picture>
+          <!-- desctop 1280 -->
+          <source media="(min-width: 1280px)" srcset="
+              ../img/7-your_order/order-desk@1x.png 1x,
+              ../img/7-your_order/order-desk@2x.png 2x
+            " />
+          <!-- tablet 768 -->
+          <source media="(min-width: 768px)" srcset="
+              ../img/7-your_order/order-tab@1x.png 1x,
+              ../img/7-your_order/order-tab@2x.png 2x
+            " />
+          <!-- mobile 320 -->
+          <source media="(min-width: 320px)" srcset="
+              ../img/7-your_order/order-mob@1x.png 1x,
+              ../img/7-your_order/order-mob@2x.png 2x
+            " />
+
+          <img class="order-social-img" src="../img/7-your_order/order-mob@1x.png" alt="soc-background" width="295"
+            height="273" />
+        </picture>
+        <p class="order-social-text">Follow us on our social networks:</p>
+        <ul class="order-social-list">
+          <li class="order-social-item">
+            <a class="order-social-link" href="https://www.instagram.com/goitclub/" target="_blank"
+              rel="noopener noreferrer" aria-label="link to Instagram">
+              instagram
+            </a>
+          </li>
+          <li class="order-social-item">
+            <p class="social-desc">/</p>
+          </li>
+
+          <li class="order-social-item">
+            <a class="order-social-link" href="https://www.facebook.com/goITclub/" target="_blank"
+              rel="noopener noreferrer" aria-label="link to Facebook">
+              facebook
+            </a>
+          </li>
+          <li class="order-social-item">
+            <p class="social-desc">/</p>
+          </li>
+          <li class="order-social-item">
+            <a class="order-social-link" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer"
+              aria-label="link to Youtube">
+              youtube
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

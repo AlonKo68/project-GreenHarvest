@@ -7,26 +7,26 @@
 @import url('./reset.css');
 @import url('./common.css');
 
-/* Олександр Соловей */
-@import url('./header.css');
 
-/* Daria Shevchenko */
-@import url('./hero.css');
+@import url('./1-header.css');
 
-/* Dima Piatnyk */
-@import url('./how_it_works.css');
 
-/* Інна Старовицька */
-@import url('./advertisement.css');
+@import url('./2-hero.css');
 
-/* Аня Паршукова */
-@import url('./vegetables.css');
 
-/* Наталія Орлова */
-@import url('./reviews.css');
+@import url('./3-how_it_works.css');
 
-/* Жека Степанов */
-@import url('./your_order.css');
 
-/* Alyona Korneeva */
-@import url('./footer.css');
+@import url('./4-advertisement.css');
+
+
+@import url('./5-vegetables.css');
+
+
+@import url('./6-reviews.css');
+
+
+@import url('./7-your_order.css');
+
+
+@import url('./8-footer.css');
