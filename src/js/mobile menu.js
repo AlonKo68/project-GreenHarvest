@@ -40,3 +40,5 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+
+console.log('Hello words!');
