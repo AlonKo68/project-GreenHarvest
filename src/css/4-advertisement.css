@@ -4,6 +4,10 @@
 .advertisement-container {
   padding-top: 80px;
   padding-bottom: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 768px) {
   .advertisement-container {
@@ -17,6 +21,8 @@
   font-weight: 600;
   line-height: 1.04;
   text-transform: uppercase;
+
+  max-width: 335px;
 }
 
 .advertisement-desc-accent {
@@ -24,22 +30,24 @@
   color: #fbfbfb;
   border-radius: 12px;
   background-color: #576f35;
-  margin-left: -10px;
-  margin-right: -10px;
-  padding-left: 10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 0 8px;
+  padding-top: 5px;
 }
 
 @media only screen and (min-width: 768px) {
   .advertisement-desc {
-    max-width: 736px;
+    max-width: 704px;
 
     font-size: 64px;
     font-weight: 600;
     line-height: 1.09;
   }
   .advertisement-desc-accent {
-    margin: -8px -16px 0px;
-    padding: 8px 16px 0px;
+    padding: 5px 12px;
+    margin-bottom: -8px;
+
   }
 }
 
@@ -49,11 +57,14 @@
 
     font-size: 76px;
     line-height: 1.05;
+
   }
   .advertisement-desc-accent {
     max-width: 808px;
     display: inline;
-    margin-right: 8px;
+
+    margin-right: 5px;
     padding: 0 13px;
+    padding-right: 0;
   }
 }
