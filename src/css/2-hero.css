@@ -83,8 +83,8 @@
   height: 370px;
 
   background-image: image-set(
-    url(../img/2-hero/bg-mob@1x.jpg) 1x,
-    url(..//img/2-hero/bg-mob@2x.jpg) 2x
+    url(/img/2-hero/bg-mob@1x.jpg) 1x,
+    url(/img/2-hero/bg-mob@2x.jpg) 2x
   );
   background-repeat: no-repeat;
   background-position: center;
@@ -94,18 +94,17 @@
   .hero-background {
    height: 539px;
     background-image: image-set(
-      url(../img/2-hero/bg-tab@1x.jpg) 1x,
-      url(..//img/2-hero/bg-tab@2x.jpg) 2x
+      url(/img/2-hero/bg-tab@1x.jpg) 1x,
+      url(/img/2-hero/bg-tab@2x.jpg) 2x
     );
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-background {
     width: 50%;
-    height: 100%;
     background-image: image-set(
-      url(../img/2-hero/bg-desk@1x.jpg) 1x,
-      url(..//img/2-hero/bg-desk@2x.jpg) 2x
+      url(/img/2-hero/bg-desk@1x.jpg) 1x,
+      url(/img/2-hero/bg-desk@2x.jpg) 2x
     );
   }
 }
