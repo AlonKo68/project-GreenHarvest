@@ -19,7 +19,7 @@
   line-height: 1.04;
   text-transform: uppercase;
 
-  width: 100%;
+  max-width: 335px;
   margin-bottom: 29px;
 }
 @media screen and (min-width: 768px) {
@@ -27,13 +27,13 @@
     font-size: 64px;
     line-height: 1;
 
-    width: 640px;
+    max-width: 640px;
     margin-bottom: 25px;
   }
 }
 @media screen and (min-width: 1280px) {
   .order-title {
-    width: 751px;
+    max-width: 751px;
   }
 }
 
@@ -44,6 +44,7 @@
 .order-text {
   line-height: 1.29;
 
+  max-width: 335px;
   margin-bottom: 29px;
 }
 @media screen and (min-width: 768px) {
@@ -51,20 +52,28 @@
     font-size: 16px;
     line-height: 1.25;
 
-    width: 640px;
+    max-width: 640px;
     margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
   .order-text {
-    width: 742px;
+    max-width: 742px;
   }
+}
+.order-wrapper {
+  
 }
 
 @media screen and (min-width: 1280px) {
   .order-wrapper {
     display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   flex-direction: row; */
     gap: 24px;
+   
   }
 }
 
@@ -72,14 +81,15 @@
   background-color: #fbfbfb;
   border-radius: 30px;
   padding: 40px 20px;
-  width: 100%;
   height: auto;
+ 
   margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .order-input-form {
     padding: 50px 100px;
     margin-bottom: 25px;
+   
   }
 }
 @media screen and (min-width: 1280px) {
@@ -96,6 +106,7 @@
   line-height: 1.08;
   text-transform: uppercase;
 
+  max-width: 295px;
   margin-bottom: 40px;
 }
 .form-title-accent-red {
@@ -103,6 +114,11 @@
 }
 .form-title-accent-green {
   color: #576f35;
+}
+@media screen and (min-width: 768px) {
+  .form-title {
+    max-width: 428px;
+  }
 }
 
 .input,
@@ -227,7 +243,7 @@
 }
 
 .order-social-img {
-  width: 100%;
+ width: 100%;
   border-radius: 15px;
   background-color: linear-gradient(
       0deg,
@@ -241,11 +257,13 @@
 @media screen and (min-width: 768px) {
   .order-social-img {
     margin-bottom: 50px;
+    
   }
 }
 
 @media screen and (min-width: 1280px) {
   .order-social-img {
+   
   }
 }
 .order-social-text {
@@ -267,6 +285,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  
 }
 @media screen and (min-width: 768px) {
   .order-social-list {
