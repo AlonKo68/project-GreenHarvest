@@ -245,7 +245,7 @@
 .order-social-img {
  width: 100%;
   border-radius: 15px;
-  background-color: linear-gradient(
+  background: linear-gradient(
       0deg,
       rgba(20, 20, 20, 0.3) 0%,
       rgba(20, 20, 20, 0.3) 100%

@@ -15,6 +15,7 @@
 .hiw-image-wrap {
   background-color: #7a3145;
   padding: 40px 20px;
+
 }
 @media screen and (min-width: 768px) {
   .hiw-image-wrap {
@@ -33,12 +34,8 @@
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
-  background-color: linear-gradient(
-      0deg,
-      rgba(20, 20, 20, 0.3) 0%,
-      rgba(20, 20, 20, 0.3) 100%
-    ),
-    url(<path-to-image>) lightgray -277.941px 0px / 149.982% 100% no-repeat;
+
+  background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(<path-to-image>) lightgray -205.954px 0px / 222.958% 110.667% no-repeat;
 }
 
 .hiw-content-wrap {
