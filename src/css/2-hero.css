@@ -83,21 +83,21 @@
   height: 370px;
 
   background-image: image-set(
-    url(/img/2-hero/bg-mob@1x.jpg) 1x,
-    url(/img/2-hero/bg-mob@2x.jpg) 2x
+    url(/img/2-hero/bg-mob@1x.webp) 1x,
+    url(/img/2-hero/bg-mob@2x.webp) 2x
   );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  background: linear-gradient(0deg, rgba(20, 20, 20, 0.20) 0%, rgba(20, 20, 20, 0.20) 100%), url(/img/2-hero/bg-mob@1x.jpg) lightgray -21.701px -17.796px / 115.12% 121.468% no-repeat;
+  background: linear-gradient(0deg, rgba(20, 20, 20, 0.20) 0%, rgba(20, 20, 20, 0.20) 100%), url(/img/2-hero/bg-mob@1x.webp) lightgray -21.701px -17.796px / 115.12% 121.468% no-repeat;
 }
 @media screen and (min-width: 768px) {
   .hero-background {
    height: 539px;
     background-image: image-set(
-      url(/img/2-hero/bg-tab@1x.jpg) 1x,
-      url(/img/2-hero/bg-tab@2x.jpg) 2x
+      url(/img/2-hero/bg-tab@1x.webp) 1x,
+      url(/img/2-hero/bg-tab@2x.webp) 2x
       );
       background-repeat: no-repeat;
       background-position: center;
@@ -109,8 +109,8 @@
     width: 50%;
     height: 100%;
     background-image: image-set(
-      url(/img/2-hero/bg-desk@1x.jpg) 1x,
-      url(/img/2-hero/bg-desk@2x.jpg) 2x
+      url(/img/2-hero/bg-desk@1x.webp) 1x,
+      url(/img/2-hero/bg-desk@2x.webp) 2x
       );
       background-repeat: no-repeat;
       background-position: center;
